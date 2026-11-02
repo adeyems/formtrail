@@ -1,0 +1,9 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>Synthetic signup</title>
+<form id="signup"><label>Email <input id="email" type="email" required></label>
+<button>Join</button></form><p id="result" role="status">Waiting</p>
+<script>
+document.querySelector('form').addEventListener('submit', event => {
+  event.preventDefault();
+  document.querySelector('#result').textContent = 'Joined';
+});
+</script></html>

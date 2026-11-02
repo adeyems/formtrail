@@ -1,0 +1,8 @@
+{"version":1,"steps":[
+  {"action":"click","selector":"button"},
+  {"action":"invalid","selector":"#email"},
+  {"action":"text","selector":"#result","value":"Waiting"},
+  {"action":"fill","selector":"#email","value":"example@example.invalid"},
+  {"action":"click","selector":"button"},
+  {"action":"text","selector":"#result","value":"Joined"}
+]}
